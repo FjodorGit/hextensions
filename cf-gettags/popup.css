@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 0;
+    padding: 10px 12px;
+    width: 300px;
+    background-color: #121212;
+    color: #bbb;
+    font: 0.8rem sans-serif;
+}
+
+#status {
+    flex: 1;
+}
+
+button {
+    background: #333;
+    color: #fff;
+    border: 1px solid #555;
+    border-radius: 4px;
+    padding: 4px 10px;
+    cursor: pointer;
+}
+
+button:disabled {
+    opacity: 0.5;
+    cursor: default;
+}
